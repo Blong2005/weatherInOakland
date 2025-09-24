@@ -79,4 +79,3 @@ function myFunction() {
           document.getElementById('weather').textContent = data.weather[0].description;
       })
       .catch(error => console.error('Error fetching the weather data:', error));
-
